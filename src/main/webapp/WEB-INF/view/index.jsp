@@ -65,7 +65,7 @@
 									 * initial visit to the page
 									 */
 									out.println("<a class='btn btn-danger' href='"
-											+ helper.buildLoginUrl() + "&hd=mobiquityinc.com'>Connect with Google+</a>");
+											+ helper.buildLoginUrl() + " '>Connect with Google+</a>");
 
 									/*
 									 * set the secure state token in session to be able to track what we sent to google
