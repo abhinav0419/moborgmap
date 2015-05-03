@@ -526,6 +526,9 @@
               <version>0.3.7</version>
               <configuration>
                 <appName>glacial-fjord-5506</appName>
+                <processTypes>
+     <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+  </processTypes>
               </configuration>
             </plugin>
          
