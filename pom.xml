@@ -520,7 +520,15 @@
 
 		<pluginManagement>
 			<plugins>
-
+         <plugin>
+              <groupId>com.heroku.sdk</groupId>
+              <artifactId>heroku-maven-plugin</artifactId>
+              <version>0.3.7</version>
+              <configuration>
+                <appName>glacial-fjord-5506</appName>
+              </configuration>
+            </plugin>
+         
 				<!-- setup version information -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>

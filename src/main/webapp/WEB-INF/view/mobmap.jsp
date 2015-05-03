@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Mobiquity | Mob Maps</title>
+<title>Location</title>
 <meta name="generator" content="Bootply" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -137,6 +137,7 @@ body {
 //comment
 $(function() {
     $("#user_location").autocomplete({
+    	max:10,
     	minLength:2,
         /* source: data, */
         source:function(request, response) {
@@ -589,17 +590,7 @@ var markers = [];
 		<!-- top navbar -->
 		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="offcanvas"
-						data-target=".sidebar-nav">
-						<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"><span><img
-							src="resource/img/mob-logo-small.png" style="margin-bottom: 5%;"><img
-							alt="Mobiquity" src="resource/img/temp.png"
-							style="width: 75%; margin-top: -5%; margin-left: 1%"> </span></a>
-				</div>
+				
 
 				<nav id="sidebar-wrapper">
 					<ul class="sidebar-nav">
@@ -625,60 +616,16 @@ var markers = [];
 					role="navigation">
 					<ul class="nav">
 					
-						<li class="active"><a
-							href="<%=request.getContextPath()%>/mobmap">MobMap</a></li>
-						<li><a href="<%=request.getContextPath()%>/moborgchart?userId=<%=session.getAttribute("loggedUserId") %>">MobOrg
-								Chart</a></li>
+						
+						
 						<li><a href="<%=request.getContextPath()%>/getupdateprofile?userId=<%=session.getAttribute("loggedUserId")%>">Edit
 								Profile</a></li>
 						<li><a href="<%=request.getContextPath()%>/logout">Logout</a></li>
 					</ul>
 				</div>
 
-				<div class="col-xs-12 col-sm-9" style="margin-top: 2%">
-					<div class="panel panel-default"
-						style="background-color: rgb(220, 220, 220);">
-						<div class="panel-body">
-
-							<!-- <form role="form"> -->
-
-							<div
-								style="float: left; padding-top: 1%; margin-right: 0.8%; color: rgb(150, 150, 150);">MOB
-								MAPS</div>
-							<div class="input-group" style="">
-								<input type="text" class="form-control"
-									placeholder="Search by location" id="location" name="search"
-									style="background-color: rgb(250, 250, 250);">
-								<div class="input-group-btn">
-									<button class="btn btn-default" type="submit" id="searchbutton"
-										style="background-color: rgb(250, 250, 250);">
-										<i class="glyphicon glyphicon-search"></i>
-									</button>
-								</div>
-							</div>
-
-
-							<div
-								style="float: left; padding-top: 1%; margin-right: 0.8%; color: rgb(150, 150, 150);">MOB
-								MAPS</div>
-							<div class="input-group" style="">
-								<input type="text" class="form-control"
-									placeholder="Search by user" id="user_location"
-									style="background-color: rgb(250, 250, 250);"> <input
-									type="text" class="form-control" placeholder="Search"
-									id="searchId" Style="display: none">
-								<div class="input-group-btn">
-									<button class="btn btn-default" type="submit"
-										id="usersearchbutton"
-										style="background-color: rgb(250, 250, 250);">
-										<i class="glyphicon glyphicon-search"></i>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-9 col-xs-height">
+				
+				
 					<div class="panel panel-default">
 						<div class="panel-body">
 							<div id="map-canvas"></div>

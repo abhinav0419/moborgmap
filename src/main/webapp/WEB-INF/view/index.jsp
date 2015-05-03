@@ -11,10 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="img/favicon.ico"
-	type="image/vnd.microsoft.icon" />
-<title>Mobiquity | Login</title>
-<link rel="icon" href="resource/img/mob-logo-small.png"
+
+<title>Login</title>
+<link rel="icon" href="resource/img/images.jpg"
 	type="image/x-icon">
 <!-- Bootstrap Core CSS -->
 <link href="resource/css/bootstrap.min.css" rel="stylesheet">
@@ -45,9 +44,9 @@
 			<div class="col-md-4 col-md-offset-4">
 				<div class="login-panel panel panel-default">
 					<div class="panel-heading" style="height: 50px">
-						<span><img src="resource/img/mob-logo-small.png"
+						<span><img src="resource/img/images.jpg"
 							style="float: left; margin-right: 5px;"></span>
-						<h3 class="panel-title" style="float: left;">Please Sign In</h3>
+						
 					</div>
 					<div class="panel-body">
 						<div class="oauthDemo col-xs-offset-3" id="connect">
@@ -100,7 +99,7 @@
 	</div>
 	<div class="navbar navbar-default navbar-fixed-bottom">
 		<div class="container">
-			<span class="navbar-text"> Copyright © Mobiquity, Inc. 2014.
+			<span class="navbar-text"> Copyright © Abhi, Inc. 2015.
 				All Rights Reserved. </span>
 		</div>
 	</div>

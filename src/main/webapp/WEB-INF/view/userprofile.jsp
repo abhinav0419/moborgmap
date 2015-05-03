@@ -18,7 +18,7 @@
 <meta http-equiv="cache-control"
 	content="no-cache, no-store, must-revalidate">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Mob Org Chart</title>
+<title>Profile</title>
 
 <link rel="shortcut icon" href="resource/mob.png">
 <!-- Bootstrap Core CSS -->
@@ -124,14 +124,14 @@ font-size: 25px;
 		<div class="row broad">
 			<div class="col-xs-12 col-md-4">
 				<div class="row pad_top_row">
-					<div class="col-xs-1 align">
+					<!-- <div class="col-xs-1 align">
 						<c:if test="${requestScope.singleNoBack eq true}">
 						<a href="moborgchart?userId=${currentId}"><i class="glyphicon glyphicon-chevron-left"></i></a>	
 						</c:if> 
 						<c:if test="${requestScope.mapGoBack eq true}">
 						<a href="fetchUserLatLong?userName=${user.fullName}&userId=${user.userId}"><i class="glyphicon glyphicon-chevron-left"></i></a>
 						</c:if>
-					</div>
+					</div> -->
 					<div class="col-xs-11 col-md-3 align"></div>
 				</div>
 			</div>
@@ -169,26 +169,11 @@ font-size: 25px;
 			</div>
 		</div>
 		
-		<div class="row padtop col-md-offset-4 col-xs-offset-1">
-			<div class="col-xs-12 col-md-4">
-				<ul class="ul_sub">
-					<a href="moborgchart?userId=${user.userId}">Click to see Organization Relationship</a>
-				</ul>
-			</div>
-		</div>
+		
 
 		</div>
 
-	<nav class="navbar navbar-default navbar-fixed-bottom"
-		role="navigation" style="margin-bottom: 0px">
-		<div class="container col-md-offset-6 col-xs-offset-3" id="sideMe">
-			<ul class="ul_sub">
-				<li><a href="mailto:${user.emailId}" type="button" class="btn btn-default userProButton">Send Message</a></li>
-				<li><input type="button" class="btn btn-default userProButton"
-					value="Save Contact"></li>
-			</ul>
-		</div>
-	</nav>
+	
 	
 </body>
 </html>

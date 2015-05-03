@@ -233,17 +233,7 @@ $(document).ready(function(){
 		<!-- <!-- top navbar -->
 		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="offcanvas"
-						data-target=".sidebar-nav">
-						<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"><span><img
-							src="resource/img/mob-logo-small.png" style="margin-bottom: 5%;"><img
-							alt="Mobiquity" src="resource/img/temp.png"
-							style="width: 75%; margin-top: -5%; margin-left: 1%"> </span></a>
-				</div>
+				
 
 				<nav id="sidebar-wrapper">
 					<ul class="sidebar-nav">
@@ -269,12 +259,7 @@ $(document).ready(function(){
 					role="navigation">
 					<ul class="nav">
 					
-						<li class="active"><a
-							href="<%=request.getContextPath()%>/mobmap?useremail=<%=session.getAttribute("email")%>">MobMap</a></li>
-						<li><a href="<%=request.getContextPath()%>/moborgchart?userId=<%=session.getAttribute("loggedUserId") %>">MobOrg
-								Chart</a></li>
-						<li><a href="<%=request.getContextPath()%>/getupdateprofile?userId=<%=session.getAttribute("loggedUserId")%>">Edit
-								Profile</a></li>
+						
 						<li><a href="<%=request.getContextPath()%>/logout">Logout</a></li>
 					</ul>
 				</div>
@@ -361,7 +346,7 @@ $(document).ready(function(){
 						        <div class="form-group">
 						            <div class=" col-xs-10 col-centered">
 						               <input type="submit" value="Update" class="btn btn-primary"/>
-						                <input class="btn btn-danger" type="reset" value="Reset" />
+						             
 						            </div>
 						        </div>
 						    </form:form>

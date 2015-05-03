@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Welcome To MOMS</title>
+<title>SAIYAN STYLE</title>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -80,7 +80,7 @@
 <div class="bs-example col-xs-10 col-md-6 col-centered">
     <div class="col-xs-10 col-centered" id="header">
     <div></div>
-    <div align="center"><img src="resource/img/mob-logo-small.png" />Get SetUp With the Mob</div>
+    <div align="center"> Get SetUp SAiyan style!!!</div>
     </div>
     <br>
     <form:form class="form-horizontal" id="myform" action="registration" method="post" commandName="userEntity">
@@ -91,7 +91,7 @@
             <div class="col-xs-10 col-centered">
 
             <span id="errorspan" Style="color:red"></span><br>
-                <form:input type="text" class="form-control" id="inputEmail" placeholder="Your Mob Email" path="emailId" value="" readonly="true"></form:input>
+                <form:input type="text" class="form-control" id="inputEmail" placeholder="Your Email" path="emailId" value="" readonly="true"></form:input>
                 <form:errors path="emailId"></form:errors>
 				<form:hidden path="userPicture"/>
             </div>
@@ -114,7 +114,7 @@
                 </select>
             </div>
         </div>
-        <div class="form-group">
+       <div class="form-group">
             <div class="col-xs-10 col-centered">
                 <select id="reportTo" class="form-control validate" name="reportTo" >
                     <option value="">Report To</option>
@@ -124,7 +124,7 @@
                 </select>
               
             </div>
-        </div>
+        </div> 
         <div class="form-group">
             <div class="col-xs-10 col-centered">
                 <select id="officeLocation" class="form-control validate" name="officeLocation" >

@@ -27,8 +27,8 @@ import com.google.api.client.json.jackson.JacksonFactory;
 
 public final class GoogleAuthHelper {
 
-	private static final String CLIENT_ID = "151623693832-1m4a0js9afrs785bjnuhjj505neaov0v.apps.googleusercontent.com";
-	private static final String CLIENT_SECRET = "jj_RH_FHNl6OOQcv7dW88CsJ";
+	private static final String CLIENT_ID = "701861559041-ns1oojchmpedrlgret4jv92o7irio0qk.apps.googleusercontent.com";
+	private static final String CLIENT_SECRET = "oVXUJCOT8ZPT-afx_TIPtt_E";
 	/**
 	 * Callback URI that google will redirect to after successful authentication
 	 */

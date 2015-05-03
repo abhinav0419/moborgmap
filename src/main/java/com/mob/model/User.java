@@ -131,12 +131,9 @@ public class User implements Serializable {
 	private String fullName;
 
 	@Column(name = "CONTACT_NO")
-	@NotNull
-	@Size(min = 8, max = 25)
 	private String contactNo;
 
 	@Column(name = "OFFICE_CONTACT_NO")
-	@Size(min = 1, max = 25)
 	private String officeContactNo;
 
 	@Column(name = "JOB_DESCRIPTION")
